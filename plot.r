@@ -116,7 +116,7 @@ lines(merged$log_only_0_10_5.rss, type="l", lty=1, lwd=2, col=plot_colors[2])
 lines(merged$log_only_0_10_6.rss, type="l", lty=1, lwd=2, col=plot_colors[3])
 lines(merged$log_only_0_11_1.rss, type="l", lty=1, lwd=2, col=plot_colors[4])
 lines(merged$log_only_0_11_2.rss, type="l", lty=1, lwd=2, col=plot_colors[5])
-title(main="HTTP Client", font.main=4)
+title(main="Log Only", font.main=4)
 legend("topleft", c("0_8_23 rss", "0_10_5 rss", "0_10_6 rss", "0_11_1 rss", "0_11_2 rss"), cex=0.8, col=plot_colors, lty=1, lwd=2, bty="n");
 dev.off()
 
@@ -130,7 +130,7 @@ lines(merged$log_only_0_10_5.heapUsed, type="l", lty=1, lwd=2, col=plot_colors[2
 lines(merged$log_only_0_10_6.heapUsed, type="l", lty=1, lwd=2, col=plot_colors[3])
 lines(merged$log_only_0_11_1.heapUsed, type="l", lty=1, lwd=2, col=plot_colors[4])
 lines(merged$log_only_0_11_2.heapUsed, type="l", lty=1, lwd=2, col=plot_colors[5])
-title(main="HTTP Client", font.main=4)
+title(main="Log Only", font.main=4)
 legend("topleft", c("0_8_23 heapUsed", "0_10_5 heapUsed", "0_10_6 heapUsed", "0_11_1 heapUsed", "0_11_2 heapUsed"), cex=0.8, col=plot_colors, lty=1, lwd=2, bty="n");
 dev.off()
 
@@ -144,7 +144,7 @@ lines(merged$log_only_0_10_5.heapTotal, type="l", lty=1, lwd=2, col=plot_colors[
 lines(merged$log_only_0_10_6.heapTotal, type="l", lty=1, lwd=2, col=plot_colors[3])
 lines(merged$log_only_0_11_1.heapTotal, type="l", lty=1, lwd=2, col=plot_colors[4])
 lines(merged$log_only_0_11_2.heapTotal, type="l", lty=1, lwd=2, col=plot_colors[5])
-title(main="HTTP Client", font.main=4)
+title(main="Log Only", font.main=4)
 legend("topleft", c("0_8_23 heapTotal", "0_10_5 heapTotal", "0_10_6 heapTotal", "0_11_1 heapTotal", "0_11_2 heapTotal"), cex=0.8, col=plot_colors, lty=1, lwd=2, bty="n");
 dev.off()
 
